@@ -5,6 +5,12 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/demo/index",
+			"style": {
+				"navigationBarTitleText": "框架功能演示"
+			}
 		}
 	],
 	"globalStyle": {
