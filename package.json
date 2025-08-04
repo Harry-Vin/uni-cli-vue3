@@ -2,15 +2,15 @@
   "name": "uni-preset-vue",
   "version": "0.0.0",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development VITE_APP_ENV=development VITE_APP_BASE_API=https://dev-api.example.com uni",
-    "dev:h5": "cross-env NODE_ENV=development VITE_APP_ENV=development VITE_APP_BASE_API=https://dev-api.example.com uni",
-    "dev:mp-weixin": "cross-env NODE_ENV=development VITE_APP_ENV=development VITE_APP_BASE_API=https://dev-api.example.com uni -p mp-weixin",
-    "dev:app": "cross-env NODE_ENV=development VITE_APP_ENV=development VITE_APP_BASE_API=https://dev-api.example.com uni -p app",
+    "dev": "cross-env NODE_ENV=development VITE_APP_ENV=development uni",
+    "dev:h5": "cross-env NODE_ENV=development VITE_APP_ENV=development uni",
+    "dev:mp-weixin": "cross-env NODE_ENV=development VITE_APP_ENV=development uni -p mp-weixin",
+    "dev:app": "cross-env NODE_ENV=development VITE_APP_ENV=development uni -p app",
     
-    "build": "cross-env NODE_ENV=production VITE_APP_ENV=production VITE_APP_BASE_API=https://api.example.com VITE_APP_CACHE_ENCRYPTION_KEY=YOUR_SECURE_PROD_CACHE_KEY_HERE uni build",
-    "build:h5": "cross-env NODE_ENV=production VITE_APP_ENV=production VITE_APP_BASE_API=https://api.example.com VITE_APP_CACHE_ENCRYPTION_KEY=YOUR_SECURE_PROD_CACHE_KEY_HERE uni build",
-    "build:mp-weixin": "cross-env NODE_ENV=production VITE_APP_ENV=production VITE_APP_BASE_API=https://api.example.com VITE_APP_CACHE_ENCRYPTION_KEY=YOUR_SECURE_PROD_CACHE_KEY_HERE uni build -p mp-weixin",
-    "build:app": "cross-env NODE_ENV=production VITE_APP_ENV=production VITE_APP_BASE_API=https://api.example.com VITE_APP_CACHE_ENCRYPTION_KEY=YOUR_SECURE_PROD_CACHE_KEY_HERE uni build -p app",
+    "build": "cross-env NODE_ENV=production VITE_APP_ENV=production uni build",
+    "build:h5": "cross-env NODE_ENV=production VITE_APP_ENV=production uni build",
+    "build:mp-weixin": "cross-env NODE_ENV=production VITE_APP_ENV=production uni build -p mp-weixin",
+    "build:app": "cross-env NODE_ENV=production VITE_APP_ENV=production uni build -p app",
     
     "dev:custom": "uni -p",
     "dev:h5:ssr": "uni --ssr",
